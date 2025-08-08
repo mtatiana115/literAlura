@@ -1,9 +1,14 @@
 package com.alura.literatura.model;
 
+import java.util.List;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 @Entity
 public class Autor {
@@ -13,6 +18,9 @@ public class Autor {
     private String nombre;
     private Integer nacimiento;
     private Integer fallecimiento;
+
+    @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<Libro> libros;
 
     // Getters y setters
     public Long getId() {
@@ -45,5 +53,5 @@ public class Autor {
 
     public void setFallecimiento(Integer fallecimiento) {
         this.fallecimiento = fallecimiento;
-    }   
+    }
 }
