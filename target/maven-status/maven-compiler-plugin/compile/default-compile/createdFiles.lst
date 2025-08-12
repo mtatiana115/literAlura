@@ -1,0 +1,5 @@
+com/alura/literatura/model/Libro.class
+com/alura/literatura/repository/LibroRepository.class
+com/alura/literatura/LiteraturaApplication.class
+com/alura/literatura/model/Autor.class
+com/alura/literatura/repository/AutorRepository.class

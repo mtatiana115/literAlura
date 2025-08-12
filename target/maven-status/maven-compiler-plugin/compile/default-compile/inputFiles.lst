@@ -1,0 +1,8 @@
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/LiteraturaApplication.java
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/model/Autor.java
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/model/Libro.java
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/repository/AutorRepository.java
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/repository/LibroRepository.java
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/service/ConsumidorApi.java
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/service/ConversorDatos.java
+/home/tatiana/Escritorio/Tati codigo/literAlura/src/main/java/com/alura/literatura/service/LibroService.java
